@@ -16,7 +16,7 @@ sourceSets {
     main {
         java {
             srcDirs 'Lab1/src/main/java'
-            srcDirs 'Lab2/src/main/java'
+//            srcDirs 'Lab2/src/main/java'
             srcDirs 'Lab3/src/main/java'
             srcDirs 'Lab4/src/main/java'
             srcDirs 'Lab5/src/main/java'
