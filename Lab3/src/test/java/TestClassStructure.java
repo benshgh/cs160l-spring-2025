@@ -64,4 +64,3 @@ public class TestClassStructure {
         assertEquals("Test Student", testStudent.getName());
     }
 }
-

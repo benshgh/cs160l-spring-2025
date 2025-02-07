@@ -87,7 +87,7 @@ public class ArrayListTest {
             System.out.println(student);
         }
     }
-
+    
     //Assignment below
     @Test
     public void shallowDeepCloneArrays() {
@@ -106,7 +106,7 @@ public class ArrayListTest {
 
         // TODO: perform a deep copy of the eLst ArrayList by using the overridden Student clone method.
         // After the deep copy implementation
-        // in the cloned Student list, then use the same printout statements above to
+        // in the cloned Student list, then use the same printout statements above to 
         // print out the original list and the cloned list
 
         clonedStudents = new ArrayList<>();
@@ -137,7 +137,7 @@ public class ArrayListTest {
     public void removeByValueFromArrayList() {
 
         // This test demonstrates removing by value could
-        // result in ConcurrentModificationException where traversing
+        // result in ConcurrentModificationException where traversing 
         // the array list.
 
         // The right way would be to use the Iterator to remove elements while
@@ -159,8 +159,8 @@ public class ArrayListTest {
     @Test
     public void removeByIteratorFromArrayList() {
 
-        // The right way to remove elements from ArrayList while traversing
-        // is to use an Iterator
+        // The right way to remove elements from ArrayList while traversing 
+        // is to use an Iterator 
 
         // TODO: Use an Iterator to remove objects from an ArrayList while traversing.
         // Refer to the previous test for using an iterator.
